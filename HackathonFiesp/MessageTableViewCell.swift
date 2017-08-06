@@ -28,7 +28,7 @@ class MessageTableViewCell: UITableViewCell {
 		}
 	
         titleLabel.text = message.texto
-        precisionLabel.text = "\(message.nivelPerigo ?? 0) de assertividade"
+        precisionLabel.text = "\(message.nivelPerigo ?? 0)% de assertividade"
 		dateLabel.text = message.dataEnvio
 		hourLabel.text = message.horaEnvio
     }

@@ -20,7 +20,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="warning-shield-512" translatesAutoresizingMaskIntoConstraints="NO" id="DHy-qT-4KH">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Owv-Ou-q5u"/>
+                                    <constraint firstAttribute="width" constant="200" id="oV1-eT-JL1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DHy-qT-4KH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0QY-W4-y5b"/>
+                            <constraint firstItem="DHy-qT-4KH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EB4-eG-q4e"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -28,4 +41,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="warning-shield-512" width="512" height="512"/>
+    </resources>
 </document>
