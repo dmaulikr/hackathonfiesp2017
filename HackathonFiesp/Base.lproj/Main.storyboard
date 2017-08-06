@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="-561" y="139"/>
         </scene>
-        <!--HackathonFiesp-->
+        <!--ChatScan-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="OffendersViewController" customModule="HackathonFiesp" customModuleProvider="target" sceneMemberID="viewController">
@@ -71,13 +71,13 @@
                                                     <rect key="frame" x="12" y="0.0" width="351" height="73.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Felipe Leitão" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wv-ZD-8km">
-                                                            <rect key="frame" x="12" y="16" width="94" height="22"/>
+                                                            <rect key="frame" x="62" y="16" width="94" height="22"/>
                                                             <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(11) 9 8704-3561" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OD-IX-vpG">
-                                                            <rect key="frame" x="12" y="42" width="108.5" height="19.5"/>
+                                                            <rect key="frame" x="62" y="42" width="108.5" height="19.5"/>
                                                             <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
                                                             <color key="textColor" red="0.77647058823529413" green="0.78431372549019607" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -95,13 +95,27 @@
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vhY-Ch-bhx">
+                                                            <rect key="frame" x="0.0" y="12" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="d9I-hP-c7T"/>
+                                                                <constraint firstAttribute="height" constant="50" id="iHo-2W-W6z"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="25"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
-                                                        <constraint firstItem="4Wv-ZD-8km" firstAttribute="leading" secondItem="Hht-pA-85E" secondAttribute="leading" constant="12" id="3jn-nv-CcM"/>
                                                         <constraint firstItem="lZN-ew-oBx" firstAttribute="centerY" secondItem="Hht-pA-85E" secondAttribute="centerY" id="BaJ-DJ-AH8"/>
                                                         <constraint firstItem="4Wv-ZD-8km" firstAttribute="top" secondItem="Hht-pA-85E" secondAttribute="top" constant="16" id="JCa-VZ-q5H"/>
+                                                        <constraint firstItem="vhY-Ch-bhx" firstAttribute="leading" secondItem="Hht-pA-85E" secondAttribute="leading" id="Jvr-P5-nKe"/>
+                                                        <constraint firstItem="vhY-Ch-bhx" firstAttribute="centerY" secondItem="Hht-pA-85E" secondAttribute="centerY" id="QQK-lc-vAO"/>
                                                         <constraint firstItem="4OD-IX-vpG" firstAttribute="top" secondItem="4Wv-ZD-8km" secondAttribute="bottom" constant="4" id="nE4-Ao-Pp2"/>
+                                                        <constraint firstItem="4Wv-ZD-8km" firstAttribute="leading" secondItem="vhY-Ch-bhx" secondAttribute="trailing" constant="12" id="rnq-JJ-Akc"/>
                                                         <constraint firstItem="4OD-IX-vpG" firstAttribute="leading" secondItem="4Wv-ZD-8km" secondAttribute="leading" id="trZ-Qg-Fgo"/>
                                                         <constraint firstAttribute="trailing" secondItem="lZN-ew-oBx" secondAttribute="trailing" constant="12" id="zke-Tm-Y0L"/>
                                                     </constraints>
@@ -117,6 +131,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
+                                            <outlet property="mainImageView" destination="vhY-Ch-bhx" id="hbv-dB-cNx"/>
                                             <outlet property="phoneLabel" destination="4OD-IX-vpG" id="gbr-Pn-C7r"/>
                                             <outlet property="statusView" destination="lZN-ew-oBx" id="YVa-Xo-4du"/>
                                             <outlet property="titleLabel" destination="4Wv-ZD-8km" id="gjq-00-gHs"/>
@@ -147,7 +162,7 @@
                             <constraint firstAttribute="trailing" secondItem="cBL-Gq-6cQ" secondAttribute="trailing" id="xSM-qd-tBS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="HackathonFiesp" id="mel-M5-phd">
+                    <navigationItem key="navigationItem" title="ChatScan" id="mel-M5-phd">
                         <barButtonItem key="backBarButtonItem" title=" " id="I0N-W6-Lop"/>
                     </navigationItem>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>

@@ -141,7 +141,7 @@ extension OffendersViewController: UITableViewDataSource, UITableViewDelegate {
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "OffenderTableViewCell") as! OffenderTableViewCell
 		
-		cell.setOffender(offenders[indexPath.row])
+		cell.setOffender(offenders[indexPath.row], indexPath: indexPath.row + 1)
 		
 		return cell
 	}

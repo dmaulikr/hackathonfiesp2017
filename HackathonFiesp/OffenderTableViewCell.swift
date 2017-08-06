@@ -10,11 +10,13 @@ import UIKit
 
 class OffenderTableViewCell: UITableViewCell {
 	
+	@IBOutlet weak var mainImageView: UIImageView!
 	@IBOutlet weak var titleLabel: UILabel!
 	@IBOutlet weak var phoneLabel: UILabel!
 	@IBOutlet weak var statusView: UIView!
 	
-	func setOffender(_ offender: Offender) {
+	func setOffender(_ offender: Offender, indexPath: Int) {
+		mainImageView.image = UIImage(named: "\(indexPath)")
         titleLabel.text = offender.nome
         phoneLabel.text = offender.telefone
 		
