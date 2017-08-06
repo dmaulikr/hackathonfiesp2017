@@ -1,0 +1,6 @@
+framework module Pods_HackathonFiesp {
+  umbrella header "Pods-HackathonFiesp-umbrella.h"
+
+  export *
+  module * { export * }
+}

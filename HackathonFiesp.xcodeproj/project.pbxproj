@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0DAB8B88005D1C68909842 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39934BBB06D2EBC96065F53F /* Pods_OneSignalNotificationServiceExtension.framework */; };
+		4115C2EB1F36AB400097DA80 /* Offender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115C2EA1F36AB400097DA80 /* Offender.swift */; };
+		4115C2F01F36ACE40097DA80 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2EC1F36ACE40097DA80 /* OpenSans-Bold.ttf */; };
+		4115C2F11F36ACE40097DA80 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2ED1F36ACE40097DA80 /* OpenSans-Light.ttf */; };
+		4115C2F21F36ACE40097DA80 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2EE1F36ACE40097DA80 /* OpenSans-Regular.ttf */; };
+		4115C2F31F36ACE40097DA80 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2EF1F36ACE40097DA80 /* OpenSans-Semibold.ttf */; };
+		4115C2F61F36BCC90097DA80 /* OffenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115C2F51F36BCC90097DA80 /* OffenderViewController.swift */; };
+		4115C2F81F36BCDD0097DA80 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115C2F71F36BCDD0097DA80 /* MessageTableViewCell.swift */; };
+		4115C2FA1F36CC9B0097DA80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2F91F36CC9B0097DA80 /* GoogleService-Info.plist */; };
+		4115C3011F36D5050097DA80 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2FB1F36D5050097DA80 /* OpenSans-BoldItalic.ttf */; };
+		4115C3021F36D5050097DA80 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2FC1F36D5050097DA80 /* OpenSans-ExtraBold.ttf */; };
+		4115C3031F36D5050097DA80 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2FD1F36D5050097DA80 /* OpenSans-ExtraBoldItalic.ttf */; };
+		4115C3041F36D5050097DA80 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2FE1F36D5050097DA80 /* OpenSans-Italic.ttf */; };
+		4115C3051F36D5050097DA80 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C2FF1F36D5050097DA80 /* OpenSans-LightItalic.ttf */; };
+		4115C3061F36D5050097DA80 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4115C3001F36D5050097DA80 /* OpenSans-SemiboldItalic.ttf */; };
+		413B483B1F363AEF0094D958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B483A1F363AEF0094D958 /* AppDelegate.swift */; };
+		413B48401F363AEF0094D958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413B483E1F363AEF0094D958 /* Main.storyboard */; };
+		413B48431F363AEF0094D958 /* HackathonFiesp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 413B48411F363AEF0094D958 /* HackathonFiesp.xcdatamodeld */; };
+		413B48451F363AEF0094D958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413B48441F363AEF0094D958 /* Assets.xcassets */; };
+		413B48481F363AEF0094D958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413B48461F363AEF0094D958 /* LaunchScreen.storyboard */; };
+		413B48561F36A8800094D958 /* OffendersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B48551F36A8800094D958 /* OffendersViewController.swift */; };
+		413B48581F36A96D0094D958 /* OffenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B48571F36A96D0094D958 /* OffenderTableViewCell.swift */; };
+		419B26C61F36F9C10095DE50 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B26C51F36F9C10095DE50 /* Message.swift */; };
+		41AD85F91F36DCF700374C36 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD85F81F36DCF700374C36 /* NotificationService.swift */; };
+		41AD85FD1F36DCF700374C36 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41AD85F61F36DCF600374C36 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41AD86051F36E5E500374C36 /* ProgressUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD86041F36E5E400374C36 /* ProgressUtils.swift */; };
+		68F55751E49816E83092FBA6 /* Pods_HackathonFiesp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687FABCC742E2BA2662157DF /* Pods_HackathonFiesp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AD85FB1F36DCF700374C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413B482F1F363AEF0094D958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AD85F51F36DCF600374C36;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41AD86011F36DCF700374C36 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				41AD85FD1F36DCF700374C36 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B2F94466A287C11BDBCA385 /* Pods-HackathonFiesp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonFiesp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonFiesp/Pods-HackathonFiesp.release.xcconfig"; sourceTree = "<group>"; };
+		39934BBB06D2EBC96065F53F /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D513CF4D1909BEA95A234A0 /* Pods-HackathonFiesp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonFiesp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonFiesp/Pods-HackathonFiesp.debug.xcconfig"; sourceTree = "<group>"; };
+		4115C2EA1F36AB400097DA80 /* Offender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offender.swift; sourceTree = "<group>"; };
+		4115C2EC1F36ACE40097DA80 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		4115C2ED1F36ACE40097DA80 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4115C2EE1F36ACE40097DA80 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		4115C2EF1F36ACE40097DA80 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		4115C2F51F36BCC90097DA80 /* OffenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffenderViewController.swift; sourceTree = "<group>"; };
+		4115C2F71F36BCDD0097DA80 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		4115C2F91F36CC9B0097DA80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4115C2FB1F36D5050097DA80 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4115C2FC1F36D5050097DA80 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4115C2FD1F36D5050097DA80 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4115C2FE1F36D5050097DA80 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		4115C2FF1F36D5050097DA80 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		4115C3001F36D5050097DA80 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		413B48371F363AEF0094D958 /* HackathonFiesp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonFiesp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413B483A1F363AEF0094D958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		413B483F1F363AEF0094D958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		413B48421F363AEF0094D958 /* HackathonFiesp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackathonFiesp.xcdatamodel; sourceTree = "<group>"; };
+		413B48441F363AEF0094D958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		413B48471F363AEF0094D958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		413B48491F363AEF0094D958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413B48551F36A8800094D958 /* OffendersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffendersViewController.swift; sourceTree = "<group>"; };
+		413B48571F36A96D0094D958 /* OffenderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffenderTableViewCell.swift; sourceTree = "<group>"; };
+		419B26C51F36F9C10095DE50 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		41AD85F61F36DCF600374C36 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AD85F81F36DCF700374C36 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		41AD85FA1F36DCF700374C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AD86021F36DDF900374C36 /* HackathonFiesp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HackathonFiesp.entitlements; sourceTree = "<group>"; };
+		41AD86041F36E5E400374C36 /* ProgressUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressUtils.swift; sourceTree = "<group>"; };
+		687FABCC742E2BA2662157DF /* Pods_HackathonFiesp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackathonFiesp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BCC10DEC1BC72F4A5DA187 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		F549C534860AA808ABCA76AE /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		413B48341F363AEF0094D958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F55751E49816E83092FBA6 /* Pods_HackathonFiesp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD85F31F36DCF600374C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0DAB8B88005D1C68909842 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BCAB78C11A2624B239E980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				687FABCC742E2BA2662157DF /* Pods_HackathonFiesp.framework */,
+				39934BBB06D2EBC96065F53F /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32F10B7F8B493C7A863F7B41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D513CF4D1909BEA95A234A0 /* Pods-HackathonFiesp.debug.xcconfig */,
+				1B2F94466A287C11BDBCA385 /* Pods-HackathonFiesp.release.xcconfig */,
+				B1BCC10DEC1BC72F4A5DA187 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				F549C534860AA808ABCA76AE /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4115C2E91F36AB2E0097DA80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				419B26C51F36F9C10095DE50 /* Message.swift */,
+				4115C2EA1F36AB400097DA80 /* Offender.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4115C2F41F36BCB50097DA80 /* Offender */ = {
+			isa = PBXGroup;
+			children = (
+				4115C2F71F36BCDD0097DA80 /* MessageTableViewCell.swift */,
+				4115C2F51F36BCC90097DA80 /* OffenderViewController.swift */,
+			);
+			name = Offender;
+			sourceTree = "<group>";
+		};
+		413B482E1F363AEF0094D958 = {
+			isa = PBXGroup;
+			children = (
+				4115C2EC1F36ACE40097DA80 /* OpenSans-Bold.ttf */,
+				4115C2ED1F36ACE40097DA80 /* OpenSans-Light.ttf */,
+				4115C2EE1F36ACE40097DA80 /* OpenSans-Regular.ttf */,
+				4115C2EF1F36ACE40097DA80 /* OpenSans-Semibold.ttf */,
+				4115C2FB1F36D5050097DA80 /* OpenSans-BoldItalic.ttf */,
+				4115C2FC1F36D5050097DA80 /* OpenSans-ExtraBold.ttf */,
+				4115C2FD1F36D5050097DA80 /* OpenSans-ExtraBoldItalic.ttf */,
+				4115C2FE1F36D5050097DA80 /* OpenSans-Italic.ttf */,
+				4115C2FF1F36D5050097DA80 /* OpenSans-LightItalic.ttf */,
+				4115C3001F36D5050097DA80 /* OpenSans-SemiboldItalic.ttf */,
+				413B48391F363AEF0094D958 /* HackathonFiesp */,
+				41AD85F71F36DCF600374C36 /* OneSignalNotificationServiceExtension */,
+				413B48381F363AEF0094D958 /* Products */,
+				32F10B7F8B493C7A863F7B41 /* Pods */,
+				32BCAB78C11A2624B239E980 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		413B48381F363AEF0094D958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				413B48371F363AEF0094D958 /* HackathonFiesp.app */,
+				41AD85F61F36DCF600374C36 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		413B48391F363AEF0094D958 /* HackathonFiesp */ = {
+			isa = PBXGroup;
+			children = (
+				41AD86021F36DDF900374C36 /* HackathonFiesp.entitlements */,
+				4115C2F91F36CC9B0097DA80 /* GoogleService-Info.plist */,
+				413B48501F363CC40094D958 /* Domain */,
+				413B484F1F363CBB0094D958 /* Core */,
+			);
+			path = HackathonFiesp;
+			sourceTree = "<group>";
+		};
+		413B484F1F363CBB0094D958 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				41AD86031F36E5D400374C36 /* Utils */,
+				413B48511F363CDA0094D958 /* Assets */,
+				4115C2E91F36AB2E0097DA80 /* Models */,
+				413B48531F363D130094D958 /* Storyboards */,
+				413B48521F363CE50094D958 /* Supporting Files */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		413B48501F363CC40094D958 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4115C2F41F36BCB50097DA80 /* Offender */,
+				413B48541F36A84B0094D958 /* Offenders */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		413B48511F363CDA0094D958 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				413B48441F363AEF0094D958 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		413B48521F363CE50094D958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413B483A1F363AEF0094D958 /* AppDelegate.swift */,
+				413B48411F363AEF0094D958 /* HackathonFiesp.xcdatamodeld */,
+				413B48491F363AEF0094D958 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		413B48531F363D130094D958 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				413B48461F363AEF0094D958 /* LaunchScreen.storyboard */,
+				413B483E1F363AEF0094D958 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		413B48541F36A84B0094D958 /* Offenders */ = {
+			isa = PBXGroup;
+			children = (
+				413B48551F36A8800094D958 /* OffendersViewController.swift */,
+				413B48571F36A96D0094D958 /* OffenderTableViewCell.swift */,
+			);
+			name = Offenders;
+			sourceTree = "<group>";
+		};
+		41AD85F71F36DCF600374C36 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				41AD85F81F36DCF700374C36 /* NotificationService.swift */,
+				41AD85FA1F36DCF700374C36 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		41AD86031F36E5D400374C36 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				41AD86041F36E5E400374C36 /* ProgressUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		413B48361F363AEF0094D958 /* HackathonFiesp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413B484C1F363AEF0094D958 /* Build configuration list for PBXNativeTarget "HackathonFiesp" */;
+			buildPhases = (
+				D9FBD70B0181250E6DA0062D /* [CP] Check Pods Manifest.lock */,
+				413B48331F363AEF0094D958 /* Sources */,
+				413B48341F363AEF0094D958 /* Frameworks */,
+				413B48351F363AEF0094D958 /* Resources */,
+				BB2EB2B228EFB5B4A94AC1B2 /* [CP] Embed Pods Frameworks */,
+				54F41C37C9CD0A42EAE28ED0 /* [CP] Copy Pods Resources */,
+				41AD86011F36DCF700374C36 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AD85FC1F36DCF700374C36 /* PBXTargetDependency */,
+			);
+			name = HackathonFiesp;
+			productName = HackathonFiesp;
+			productReference = 413B48371F363AEF0094D958 /* HackathonFiesp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AD85F51F36DCF600374C36 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AD86001F36DCF700374C36 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				082685C92A64DC6A801DF718 /* [CP] Check Pods Manifest.lock */,
+				41AD85F21F36DCF600374C36 /* Sources */,
+				41AD85F31F36DCF600374C36 /* Frameworks */,
+				41AD85F41F36DCF600374C36 /* Resources */,
+				307067553AA4DB9EB4A0DE66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 41AD85F61F36DCF600374C36 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		413B482F1F363AEF0094D958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Megaleios;
+				TargetAttributes = {
+					413B48361F363AEF0094D958 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JFLZRURJB2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					41AD85F51F36DCF600374C36 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JFLZRURJB2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 413B48321F363AEF0094D958 /* Build configuration list for PBXProject "HackathonFiesp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 413B482E1F363AEF0094D958;
+			productRefGroup = 413B48381F363AEF0094D958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413B48361F363AEF0094D958 /* HackathonFiesp */,
+				41AD85F51F36DCF600374C36 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		413B48351F363AEF0094D958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413B48481F363AEF0094D958 /* LaunchScreen.storyboard in Resources */,
+				4115C2FA1F36CC9B0097DA80 /* GoogleService-Info.plist in Resources */,
+				413B48451F363AEF0094D958 /* Assets.xcassets in Resources */,
+				4115C2F01F36ACE40097DA80 /* OpenSans-Bold.ttf in Resources */,
+				4115C2F11F36ACE40097DA80 /* OpenSans-Light.ttf in Resources */,
+				4115C2F21F36ACE40097DA80 /* OpenSans-Regular.ttf in Resources */,
+				4115C3011F36D5050097DA80 /* OpenSans-BoldItalic.ttf in Resources */,
+				4115C2F31F36ACE40097DA80 /* OpenSans-Semibold.ttf in Resources */,
+				413B48401F363AEF0094D958 /* Main.storyboard in Resources */,
+				4115C3041F36D5050097DA80 /* OpenSans-Italic.ttf in Resources */,
+				4115C3061F36D5050097DA80 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				4115C3031F36D5050097DA80 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				4115C3051F36D5050097DA80 /* OpenSans-LightItalic.ttf in Resources */,
+				4115C3021F36D5050097DA80 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD85F41F36DCF600374C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082685C92A64DC6A801DF718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		307067553AA4DB9EB4A0DE66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F41C37C9CD0A42EAE28ED0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackathonFiesp/Pods-HackathonFiesp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2EB2B228EFB5B4A94AC1B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackathonFiesp/Pods-HackathonFiesp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9FBD70B0181250E6DA0062D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		413B48331F363AEF0094D958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4115C2F81F36BCDD0097DA80 /* MessageTableViewCell.swift in Sources */,
+				413B48431F363AEF0094D958 /* HackathonFiesp.xcdatamodeld in Sources */,
+				413B48561F36A8800094D958 /* OffendersViewController.swift in Sources */,
+				419B26C61F36F9C10095DE50 /* Message.swift in Sources */,
+				4115C2EB1F36AB400097DA80 /* Offender.swift in Sources */,
+				41AD86051F36E5E500374C36 /* ProgressUtils.swift in Sources */,
+				413B48581F36A96D0094D958 /* OffenderTableViewCell.swift in Sources */,
+				413B483B1F363AEF0094D958 /* AppDelegate.swift in Sources */,
+				4115C2F61F36BCC90097DA80 /* OffenderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD85F21F36DCF600374C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD85F91F36DCF700374C36 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AD85FC1F36DCF700374C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AD85F51F36DCF600374C36 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 41AD85FB1F36DCF700374C36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		413B483E1F363AEF0094D958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413B483F1F363AEF0094D958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		413B48461F363AEF0094D958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413B48471F363AEF0094D958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		413B484A1F363AEF0094D958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		413B484B1F363AEF0094D958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		413B484D1F363AEF0094D958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D513CF4D1909BEA95A234A0 /* Pods-HackathonFiesp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HackathonFiesp/HackathonFiesp.entitlements;
+				DEVELOPMENT_TEAM = JFLZRURJB2;
+				INFOPLIST_FILE = HackathonFiesp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulvbrito.HackathonFiespDenuncia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		413B484E1F363AEF0094D958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2F94466A287C11BDBCA385 /* Pods-HackathonFiesp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HackathonFiesp/HackathonFiesp.entitlements;
+				DEVELOPMENT_TEAM = JFLZRURJB2;
+				INFOPLIST_FILE = HackathonFiesp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulvbrito.HackathonFiespDenuncia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		41AD85FE1F36DCF700374C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BCC10DEC1BC72F4A5DA187 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JFLZRURJB2;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulvbrito.HackathonFiespDenuncia.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		41AD85FF1F36DCF700374C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F549C534860AA808ABCA76AE /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JFLZRURJB2;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulvbrito.HackathonFiespDenuncia.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		413B48321F363AEF0094D958 /* Build configuration list for PBXProject "HackathonFiesp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413B484A1F363AEF0094D958 /* Debug */,
+				413B484B1F363AEF0094D958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413B484C1F363AEF0094D958 /* Build configuration list for PBXNativeTarget "HackathonFiesp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413B484D1F363AEF0094D958 /* Debug */,
+				413B484E1F363AEF0094D958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AD86001F36DCF700374C36 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AD85FE1F36DCF700374C36 /* Debug */,
+				41AD85FF1F36DCF700374C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		413B48411F363AEF0094D958 /* HackathonFiesp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				413B48421F363AEF0094D958 /* HackathonFiesp.xcdatamodel */,
+			);
+			currentVersion = 413B48421F363AEF0094D958 /* HackathonFiesp.xcdatamodel */;
+			path = HackathonFiesp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 413B482F1F363AEF0094D958 /* Project object */;
+}
