@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "DenunciaFiesp",
+	"browser_action": {
+          "default_title": "Google Mail",      // optional; shown in tooltip
+          "default_popup": "popup.html"        // optional
+        },
+	"version": "1",
+	"description": "Denuncie conversas do WhatsApp",
+	 "icons": {
+    	"48": "icon48.png",
+      "128": "icon128.png"
+	    },
+	"content_scripts": [
+	    {
+				"matches": ["https://web.whatsapp.com/"],
+	      "js": ["jquery.js", "denuncia.js"]
+	    }
+  	],
+		"permissions": [
+		"tabs",
+		"<all_urls>"
+  ],
+	"background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
